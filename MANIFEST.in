@@ -1,0 +1,16 @@
+# pip install poetry
+# package management https://iter01.com/584982.html
+# include pyproject.toml
+include requirements.txt
+
+# Include the README
+include *.md
+
+# Include the license file
+include LICENSE.txt
+
+# Include setup.py
+include setup.py
+
+# Include the data files
+recursive-include data *
